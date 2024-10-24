@@ -1,0 +1,34 @@
+.sectionContainer {
+
+ scroll-behavior: smooth;
+  
+}
+
+.heroSection {
+
+  background: lightcoral;
+  height: 50vh;
+
+}
+
+.pricesSection {
+
+  background: lightgoldenrodyellow;
+  height: 50vh;
+
+}
+
+
+.aboutSection {
+
+  background: lightgrey;
+  height: 50vh;
+
+}
+
+.contactSection {
+
+  background: lightskyblue;
+  height: 50vh;
+
+}
