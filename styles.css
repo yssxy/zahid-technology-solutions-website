@@ -6,6 +6,11 @@
 .sectionContainer {
 
  scroll-behavior: smooth;
+ margin-top: 10px;
+margin-bottom: 10px;
+  
+ 
+ 
   
 }
 
@@ -13,6 +18,8 @@
 
   background: lightcoral;
   height: 50vh;
+
+  
 
 }
 
