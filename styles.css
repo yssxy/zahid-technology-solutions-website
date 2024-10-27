@@ -1,46 +1,69 @@
-.navBar {
-
- height: 80px;
-
-}
-.sectionContainer {
-
- scroll-behavior: smooth;
- margin-top: 10px;
-margin-bottom: 10px;
-  
- 
- 
-  
+:root {
+    
 }
 
-.heroSection {
+.main {
 
-  background: lightcoral;
+    
+
+}
+
+
+  
+
+.headerContainer {
+ 
+  
+  display: flex;
+  height: 80px;
+  position: sticky;
+  
+  
+  
+  
+  }
+
+.headerNav > a{
+  
+  scroll-behavior: smooth;
+  
+  }
+
+.headerItem {
+  
+  
+  
+  }
+
+
+.box3 {
+ 
+  display: flex;
+  position: sticky;
+  
+  
+  
+  
+  }
+
+.hero {
+ 
+  background: lightgrey;
   height: 50vh;
-
   
-
 }
 
 .pricesSection {
-
-  background: lightgoldenrodyellow;
+  
+  background: grey;
   height: 50vh;
-
+  scroll-behavior: smooth;
+  
+  
 }
-
 
 .aboutSection {
-
+  
   background: lightgrey;
-  height: 50vh;
-
-}
-
-.contactSection {
-
-  background: lightskyblue;
-  height: 50vh;
-
-}
+  height: 100vh;
+  }
