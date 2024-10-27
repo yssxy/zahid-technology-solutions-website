@@ -5,33 +5,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script type="module" src="script.js"></script>
   </head>
 
   <body>
-    <main class="main">
-    <div class="headerContainer">
-      <div class="headerItem">box1</div>
-      <div class="headerItem">box2</div>
-      <div class="headerItem">box2</div>
-    <div>
-      <div class="headerItem box3">
-        <nav class="headerNav">
-             <a href="#hero" ">Home</a>
-             <a href="#prices">Prices</a>
-             <a href="#about">About</a>
-             <a href="#">Contact Us</a>
-        </nav>
-      </div>
-    </div>  
-      
-    </div>
-    
-    <div id="hero" class="hero">Hero</div>
-    <div id="prices" class="pricesSection">Prices</div>
-    <div id="about" class="aboutSection">About</div>
+    <main>
 
-  </main>
+      
+
+      <div class="logoNavContainer">
+
+        
+          <a class="logo">
+            <i class="fa-solid fa-globe"></i>
+          </a>
+
+
+          <div class="navContainer">
+            <nav>
+              <ul id="navLinks" class="hidden">
+                <a class="links" href="#home">Home</a>
+                <a class="links" href="#prices">Prices</a>
+                <a class="links" href="#about">About</a>
+                <a class="links" href="#contact">Contact</a>
+              </ul>
+            </nav>
+          </div>
+        
+          <button id="toggleButton" class="myButton">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        
+          
+      </div>
+        
+
+
+    
+      
+      
+    
+
+    
+      <div id="home" class="hero">
+
+        
+        <h1>Tech help made simple</h1>
+        <br>
+        <h2>just a call, and we're there.</h2>
+        <img src="/banner2.png">
+        
+
+        
+
+        
+      </div>
+
+      <div id="prices" class="pricesSection">This text is centered
+
+      </div>
+
+      <div id="about" class="aboutSection">About
+
+      </div>
+
+      <div id="contact" class="contactSection">Contact
+
+      </div>
+
+      
+
+    </main>
     
   </body>
 </html>
