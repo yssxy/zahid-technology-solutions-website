@@ -16,8 +16,7 @@
   
   display: flex;
   height: 80px;
-  position: sticky;
-  
+  flex-direction: row;
   
   
   
