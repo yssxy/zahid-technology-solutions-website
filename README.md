@@ -1,3 +1,3 @@
-# zahid-technology-solutions-website
+# Web design for Zahid Technology Solutions
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/yssxy/zahid-technology-solutions-website)
+Creating my first ever website for my Technology company using basic html, css, and javascript. 
